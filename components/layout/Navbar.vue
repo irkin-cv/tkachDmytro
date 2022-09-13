@@ -96,8 +96,9 @@ export default {
   margin-right: 32px;
 }
 
-.navbar-nav:deep(.nav-link):hover,
 .navbar-nav:deep(.nuxt-link-exact-active),
+.navbar-nav:deep(.nav-link):hover,
+.navbar-nav:deep(.nav-link):focus,
 .navbar-nav:deep(.show) > .nav-link {
   font-weight: 700;
   color: var(--clr-hot-ping);
