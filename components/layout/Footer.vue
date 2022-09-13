@@ -1,11 +1,15 @@
 <template>
   <div>
-    Main page
+    Footer
   </div>
 </template>
 
 <script>
 export default {
-  name: 'IndexPage'
+  name: 'Footer'
 }
 </script>
+
+<style scoped>
+
+</style>

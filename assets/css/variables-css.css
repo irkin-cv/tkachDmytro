@@ -1,3 +1,11 @@
 :root {
-  --clr-blue-100: #0777e0;
+  --navbar-height: 56px;
+  --border-radius-12: 12px;
+
+  --clr-black-100: #09172A;
+  --clr-black-1: #e6e6e6;
+
+  --clr-hot-ping: #FF5EA5;
+
+  --clr-dark-blue: #1D3557;
 }

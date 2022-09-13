@@ -1,11 +1,15 @@
 <template>
   <div>
-    Main page
+    Catalog
   </div>
 </template>
 
 <script>
 export default {
-  name: 'IndexPage'
+  name: 'CatalogPage'
 }
 </script>
+
+<style scoped>
+
+</style>

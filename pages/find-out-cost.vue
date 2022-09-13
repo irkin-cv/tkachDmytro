@@ -1,11 +1,15 @@
 <template>
   <div>
-    Main page
+    find_out_costs
   </div>
 </template>
 
 <script>
 export default {
-  name: 'IndexPage'
+  name: 'findOutCost'
 }
 </script>
+
+<style scoped>
+
+</style>

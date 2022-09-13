@@ -1,11 +1,15 @@
 <template>
   <div>
-    Main page
+    How It Works
   </div>
 </template>
 
 <script>
 export default {
-  name: 'IndexPage'
+  name: 'howItWork'
 }
 </script>
+
+<style scoped>
+
+</style>
