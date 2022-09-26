@@ -1,11 +1,24 @@
 :root {
+  --content-width: 1110px;
+
+  --screen-extra-small: 576px;
+  --screen-small: 577px;
+  --screen-medium: 769px;
+  --screen-large: 993px;
+  --screen-extra-large: 1200px;
+
   --navbar-height: 56px;
+  --footer-height: 346px;
+
   --border-radius-12: 12px;
 
   --clr-black-100: #09172A;
   --clr-black-1: #e6e6e6;
 
   --clr-hot-ping: #FF5EA5;
+  --clr-ping: #FF62A7;
 
   --clr-dark-blue: #1D3557;
+  --clr-blue: #233F66;
+  --clr-green-bondi-blue: #0A97B0;
 }

@@ -58,7 +58,7 @@
 
 <script>
 export default {
-  name: 'Navbar',
+  name: 'NavbarSection',
   data () {
     return {
       locales: {
@@ -80,7 +80,7 @@ export default {
   z-index: 1020;
 }
 .navbar {
-  max-width: 960px;
+  max-width: var(--content-width);
   height: var(--navbar-height);
   margin: auto;
   background-color: #ffffff;
