@@ -20,6 +20,9 @@
         <nuxt-link :to="{ name: 'contacts' }" class="navigation-link">
           {{ $t('footer.contacts') }}
         </nuxt-link>
+        <nuxt-link :to="{ name: 'terms-of-service' }" class="navigation-link">
+          {{ $t('footer.terms_of_service') }}
+        </nuxt-link>
         <nuxt-link :to="{ name: 'delivery' }" class="navigation-link">
           {{ $t('footer.delivery') }}
         </nuxt-link>
@@ -53,6 +56,15 @@
         2022 © Shiny-Shiny. All rights reserved.
       </div>
     </div>
+
+    <img src="~static/images/footer/pink-spot.svg" class="pink-spot" />
+    <img src="~static/images/footer/white-line.svg" class="white-line" />
+    <img src="~static/images/footer/black-spots.svg" class="black-spots" />
+    <img src="~static/images/footer/blue-spot.svg" class="blue-spot" />
+    <img src="~static/images/footer/white-spots.svg" class="white-spots" />
+    <img src="~static/images/footer/black-line.svg" class="black-line" />
+    <img src="~static/images/footer/white-plus.svg" class="white-plus" />
+    <img src="~static/images/footer/white-round.svg" class="white-round" />
   </section>
 </template>
 
