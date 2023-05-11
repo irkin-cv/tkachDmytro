@@ -6,7 +6,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Shiny Shiny',
+    title: 'Tkach Dmytro',
     htmlAttrs: {
       lang: 'en'
     },

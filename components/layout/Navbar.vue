@@ -83,6 +83,7 @@ export default {
   max-width: var(--content-width);
   height: var(--navbar-height);
   margin: auto;
+  padding: 0;
   background-color: #ffffff;
 }
 
