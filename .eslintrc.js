@@ -17,6 +17,6 @@ module.exports = {
   // add your custom rules here
   rules: {
     'vue/multi-word-component-names': 'warn',
-    'vue/component-name-in-template-casing': ['error', 'PascalCase'],
+    'vue/component-name-in-template-casing': ['error', 'PascalCase']
   }
 }
