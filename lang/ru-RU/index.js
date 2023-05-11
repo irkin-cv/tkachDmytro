@@ -1,9 +1,9 @@
-import navbar from './navbar'
-import footer from './footer'
-import common from './common'
-
-export default {
-  navbar,
-  footer,
-  common
-}
+// import navbar from '../en-US/navbar'
+// import footer from '../en-US/footer'
+// import common from '../en-US/common'
+//
+// export default {
+//   navbar,
+//   footer,
+//   common
+// }

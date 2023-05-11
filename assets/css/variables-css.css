@@ -7,7 +7,7 @@
   --screen-large: 993px;
   --screen-extra-large: 1200px;
 
-  --navbar-height: 56px;
+  --navbar-height: 70px;
   --footer-height: 346px;
 
   --border-radius-12: 12px;
@@ -21,4 +21,6 @@
   --clr-dark-blue: #1D3557;
   --clr-blue: #233F66;
   --clr-green-bondi-blue: #0A97B0;
+
+  --box-shadow-075: 0 0 20px 0 rgba(193,193,193,0.75);
 }

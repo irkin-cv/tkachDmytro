@@ -1,18 +1,6 @@
 <template>
   <section class="footer">
     <div class="footer-container">
-      <div class="footer-logo">
-        <nuxt-link :to="{ name: 'index' }">
-          <img
-            src="~static/images/logo-white.svg"
-            alt="shiny-shiny.com"
-            height="24"
-            width="119"
-            class="logo-img"
-          />
-        </nuxt-link>
-      </div>
-
       <div class="footer-navigation">
         <nuxt-link :to="{ name: 'help' }" class="navigation-link colored">
           {{ $t('footer.help') }}
@@ -42,10 +30,7 @@
 
       <div class="footer-social">
         <div class="social-links">
-          <a :href="instagramLink" target="_blank" class="icon-instagram"><IconInstagram class="socials" /></a>
-          <a :href="facebookLink" target="_blank" class="icon-facebook"><IconFacebook class="socials" /></a>
-          <a :href="twitterLink" target="_blank" class="icon-twitter"><IconTwitter class="socials" /></a>
-          <a :href="youtubeLink" target="_blank" class="icon-youtube"><IconYouTube class="socials " /></a>
+          <a :href="linkedInLink" target="_blank" class="icon-youtube"><IconLinkedIn class="socials " /></a>
         </div>
       </div>
     </div>
@@ -53,41 +38,23 @@
     <div class="footer-bottom">
       <div class="footer-text">
         <!--Потом не забыть сделать чтобы год автоматически менялся-->
-        2022 © Shiny-Shiny. All rights reserved.
+        2023 © Dmytro Tkach. All rights reserved.
       </div>
     </div>
-
-    <img src="~static/images/footer/pink-spot.svg" class="pink-spot" />
-    <img src="~static/images/footer/white-line.svg" class="white-line" />
-    <img src="~static/images/footer/black-spots.svg" class="black-spots" />
-    <img src="~static/images/footer/blue-spot.svg" class="blue-spot" />
-    <img src="~static/images/footer/white-spots.svg" class="white-spots" />
-    <img src="~static/images/footer/black-line.svg" class="black-line" />
-    <img src="~static/images/footer/white-plus.svg" class="white-plus" />
-    <img src="~static/images/footer/white-round.svg" class="white-round" />
   </section>
 </template>
 
 <script>
-import IconInstagram from '@/components/ui/images/icons/socials/IconInstagram'
-import IconFacebook from '@/components/ui/images/icons/socials/IconFacebook'
-import IconTwitter from '@/components/ui/images/icons/socials/IconTwitter'
-import IconYouTube from '@/components/ui/images/icons/socials/IconYouTube'
+import IconLinkedIn from '@/components/ui/images/icons/socials/IconLikedIn'
 import SocialLinks from '@/enums/social/SocialLinks'
 
 export default {
   name: 'FooterSection',
   components: {
-    IconInstagram,
-    IconFacebook,
-    IconTwitter,
-    IconYouTube
+    IconLinkedIn
   },
   computed: {
-    instagramLink: () => SocialLinks.Instagram,
-    facebookLink: () => SocialLinks.Facebook,
-    twitterLink: () => SocialLinks.Twitter,
-    youtubeLink: () => SocialLinks.YouTube
+    linkedInLink: () => SocialLinks.LinkedIn
   }
 }
 </script>

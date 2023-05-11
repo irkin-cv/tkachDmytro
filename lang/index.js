@@ -3,11 +3,11 @@ import uk from './uk-UA'
 import ru from './ru-RU'
 
 export default {
-  fallbackLocale: 'ru',
+  fallbackLocale: 'en',
   silentTranslationWarn: true,
   messages: {
     en,
     uk,
     ru
-  },
+  }
 }

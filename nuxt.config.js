@@ -6,7 +6,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Tkach Dmytro',
+    title: 'Dmytro Tkach',
     htmlAttrs: {
       lang: 'en'
     },
@@ -57,10 +57,10 @@ export default {
   },
 
   i18n: {
-    locales: ['ru', 'en', 'uk'],
+    locales: ['en', 'uk', 'ru'],
     strategy: 'no_prefix',
-    defaultLocale: 'ru',
-    vueI18n: i18n,
+    defaultLocale: 'en',
+    vueI18n: i18n
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
